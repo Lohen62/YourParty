@@ -108,7 +108,7 @@ body {
   .reseaux{
       color: white;
       text-align: center;
-      font-size: 8vh;
+      font-size: 7vh;
       margin: 1% 8% 1% 10%;
       position: relative;
   }
@@ -119,6 +119,10 @@ body {
   #emmaus{
       width: 65%;
   }
+  #hopitaux:hover,#emmaus:hover{
+    transform: scale(1.2);
+  }
+
 
   
   /* POSITIONING */
