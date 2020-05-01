@@ -1,0 +1,313 @@
+* { transition: all 1.5s; }
+
+@font-face{
+  font-family: 'Monserrat';
+  src: url("font/Montserrat-Regular.ttf");
+}
+
+p { margin-top: 0; }
+
+body { 
+    margin:0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+  }
+
+.sponsors {
+    background-color: grey;
+    padding-top:30px;
+  }
+
+  
+  .whatchit,.fundraiser,.white,.black { 
+    background-color: black;
+    color: white;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  
+  .fundraiser,.white { 
+    background-color: white;
+    color: black;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  
+  .fundraiser h2 { color: grey; }
+  .greybackground,.pole { fill: #fff !important; }
+  .country,#APHP { fill: #000 !important; }
+  
+  
+  img {
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top:0;
+    margin-bottom: 5vh !important;
+    text-transform: uppercase;
+    font-weight: normal;
+
+  }
+  .pimp {
+    background-color:#4FF180;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: "Monserrat";
+    font-size:18px;
+    padding:13px 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+  }
+  .pimp:hover {
+    background-color:#3ba356;
+  }
+  
+  h3 {
+    font-size: 1.375rem;
+  }
+  
+  h4 {
+    font-size: 1.125rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+  
+  h6 {
+    font-size: 0.875rem;
+  }
+  
+
+  
+  .text{
+    font-size: 3.5vh;
+    color: rgb(252, 235, 158);
+    font-family: "Monserrat";
+    
+  }
+
+  .reseaux{
+      color: white;
+      text-align: center;
+      font-size: 8vh;
+      margin: 1% 8% 1% 10%;
+      position: relative;
+  }
+  .reseaux:hover{
+    transform: scale(1.4);
+  }
+
+  #emmaus{
+      width: 65%;
+  }
+
+  
+  /* POSITIONING */
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .row [class^="col"] {
+    float: left;
+    margin: 0;
+    min-height: 0.125rem;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+  
+  .row::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  .hidden-sm {
+    display: none;
+  }
+  
+  .visual {
+    background: url("img/background.jpg") no-repeat center center scroll;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+
+  
+  
+  #start {
+    padding-top:19vh;
+    text-align:center;
+    width:100%;
+    height: 100vh;
+  }
+  
+  
+  .share-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px 2px 8px;
+    margin: 10px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .35);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size:25px
+  }
+  .share-button:hover, .share-button:link, .share-button:visited {
+    color:#fff
+  }
+  
+  .share-button:active {
+    top: 1px;
+    box-shadow:0 0 1px rgba(0, 0, 0, .25)
+  }
+  
+  .share-button svg {
+    fill: #fff;
+    width: 19px;
+    height: 19px;
+    margin-right:5px;
+  }
+  
+  .share-button.facebook {
+    background-color:#4a66b7;
+  }
+  
+  .share-button.facebook:hover {
+    background-color:#4a66b7;
+  }
+  
+  .share-button.twitter {
+    background-color:#1b95e0;
+  }
+  
+  .share-button.twitter:hover {
+    background-color: #1b95e0;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 45em) {  /* 720px */
+  
+    .col-3 {
+      width: 25%;
+    }
+    .col-4 {
+      width: 33.33%;
+    }
+    .col-6 {
+      width: 50%;
+    }
+    .col-11 {
+      width: 91.66%;
+    }
+    .col-12 {
+      width: 100%;
+    }
+    .hidden-sm {
+      display: block;
+    }
+    .pole { fill: #DDD !important; }
+  }
+  @media screen and (max-width: 640px){
+    
+  h2{
+    font-size: 1rem !important;
+  }
+  .asso{
+    width: 8rem !important;
+  }
+  .reseaux{
+    font-size: 3vh;
+  }
+  .reseaux,.pimp{
+    position: relative;
+    left: 8%;
+    margin-bottom: 5%;
+
+  }
+  }
+  
+  @media only screen and (min-width: 60em) { /* 960px */
+    .container {
+      width: 75%;
+      max-width: 60rem;
+    }
+  }
+  
+  h1 {
+    width: 25vw;
+    display: block;
+    font-size: 4vw;
+    padding: .2em;
+    margin: 0 auto;
+    color: rgb(252, 235, 158);
+    background-color: red;
+    border-radius: .2em;
+    text-shadow: none;
+  }
