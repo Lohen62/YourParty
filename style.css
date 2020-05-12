@@ -99,10 +99,20 @@ body {
 
   
   .text{
-    font-size: 3.5vh;
-    color: rgb(252, 235, 158);
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
     font-family: "Monserrat";
     
+  }
+
+  .textdeux{
+    font-size: 2vh;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: "Monserrat";
+  }
+  .coloryourparty{
+    color: #4FF180;
   }
 
   .reseaux{
@@ -123,6 +133,14 @@ body {
     transform: scale(1.2);
   }
 
+  .ligne_verticale
+{
+    width:20px;
+    border-left:2px solid #4FF180;
+    height: 34vh;
+    position: absolute;
+    left: 34vw;
+}
 
   
   /* POSITIONING */
